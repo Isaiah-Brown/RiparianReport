@@ -10,14 +10,33 @@ import SwiftUI
 var x = 2
 
 struct ContentView: View {
+    
+    @State private var path = NavigationPath()
     var body: some View {
-        VStack {
-            Button{
-                x = 3
-            } label: {
-                Text("Report").padding(10)
+        NavigationStack (path: $path) {
+            HStack {
+                Button{
+                    print("button pressed")
+                    path.append("ReportView")
+                } label: {
+                    Text("Report").padding(10)
+                }
+                .padding()
+                Button{
+                    print("button pressed")
+                    path.append("HistoryView")
+                } label: {
+                    Text("View Previous").padding(10)
+                }
+                .padding()
             }
-            .padding()
+            .navigationDestination(for: String.self) { view in
+                if view == "ReportView" {
+                    ReportView()
+                } else if view == "HistoryView"{
+                    HistoryView()
+                }
+            }
         }
     }
 }

@@ -16,6 +16,8 @@
 		2E8B28B029E1B8F300CF38C6 /* RiparianReportUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28AF29E1B8F300CF38C6 /* RiparianReportUITestsLaunchTests.swift */; };
 		2E8B28BD29E1C8C300CF38C6 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28BC29E1C8C300CF38C6 /* ReportView.swift */; };
 		2E8B28C129E1CA7900CF38C6 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28C029E1CA7900CF38C6 /* ReportModel.swift */; };
+		2E8B28C329E1EF7700CF38C6 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28C229E1EF7700CF38C6 /* HistoryView.swift */; };
+		2E8B28C529E1EF9600CF38C6 /* HistoryInnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28C429E1EF9600CF38C6 /* HistoryInnerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		2E8B28AF29E1B8F300CF38C6 /* RiparianReportUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiparianReportUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2E8B28BC29E1C8C300CF38C6 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		2E8B28C029E1CA7900CF38C6 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
+		2E8B28C229E1EF7700CF38C6 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		2E8B28C429E1EF9600CF38C6 /* HistoryInnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryInnerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			children = (
 				2E8B289429E1B8F000CF38C6 /* ContentView.swift */,
 				2E8B28BC29E1C8C300CF38C6 /* ReportView.swift */,
+				2E8B28C229E1EF7700CF38C6 /* HistoryView.swift */,
+				2E8B28C429E1EF9600CF38C6 /* HistoryInnerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +287,8 @@
 			files = (
 				2E8B289529E1B8F000CF38C6 /* ContentView.swift in Sources */,
 				2E8B28C129E1CA7900CF38C6 /* ReportModel.swift in Sources */,
+				2E8B28C529E1EF9600CF38C6 /* HistoryInnerView.swift in Sources */,
+				2E8B28C329E1EF7700CF38C6 /* HistoryView.swift in Sources */,
 				2E8B289329E1B8F000CF38C6 /* RiparianReportApp.swift in Sources */,
 				2E8B28BD29E1C8C300CF38C6 /* ReportView.swift in Sources */,
 			);
