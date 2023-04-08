@@ -14,6 +14,8 @@
 		2E8B28A429E1B8F300CF38C6 /* RiparianReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28A329E1B8F300CF38C6 /* RiparianReportTests.swift */; };
 		2E8B28AE29E1B8F300CF38C6 /* RiparianReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28AD29E1B8F300CF38C6 /* RiparianReportUITests.swift */; };
 		2E8B28B029E1B8F300CF38C6 /* RiparianReportUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28AF29E1B8F300CF38C6 /* RiparianReportUITestsLaunchTests.swift */; };
+		2E8B28BD29E1C8C300CF38C6 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28BC29E1C8C300CF38C6 /* ReportView.swift */; };
+		2E8B28C129E1CA7900CF38C6 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B28C029E1CA7900CF38C6 /* ReportModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2E8B28A929E1B8F300CF38C6 /* RiparianReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiparianReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8B28AD29E1B8F300CF38C6 /* RiparianReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiparianReportUITests.swift; sourceTree = "<group>"; };
 		2E8B28AF29E1B8F300CF38C6 /* RiparianReportUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiparianReportUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E8B28BC29E1C8C300CF38C6 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		2E8B28C029E1CA7900CF38C6 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,9 @@
 		2E8B289129E1B8F000CF38C6 /* RiparianReport */ = {
 			isa = PBXGroup;
 			children = (
+				2E8B28BF29E1CA5F00CF38C6 /* Structs */,
 				2E8B289229E1B8F000CF38C6 /* RiparianReportApp.swift */,
-				2E8B289429E1B8F000CF38C6 /* ContentView.swift */,
+				2E8B28BE29E1C90F00CF38C6 /* Views */,
 				2E8B289629E1B8F300CF38C6 /* Assets.xcassets */,
 				2E8B289829E1B8F300CF38C6 /* Preview Content */,
 			);
@@ -125,6 +130,23 @@
 				2E8B28AF29E1B8F300CF38C6 /* RiparianReportUITestsLaunchTests.swift */,
 			);
 			path = RiparianReportUITests;
+			sourceTree = "<group>";
+		};
+		2E8B28BE29E1C90F00CF38C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B289429E1B8F000CF38C6 /* ContentView.swift */,
+				2E8B28BC29E1C8C300CF38C6 /* ReportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E8B28BF29E1CA5F00CF38C6 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B28C029E1CA7900CF38C6 /* ReportModel.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E8B289529E1B8F000CF38C6 /* ContentView.swift in Sources */,
+				2E8B28C129E1CA7900CF38C6 /* ReportModel.swift in Sources */,
 				2E8B289329E1B8F000CF38C6 /* RiparianReportApp.swift in Sources */,
+				2E8B28BD29E1C8C300CF38C6 /* ReportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

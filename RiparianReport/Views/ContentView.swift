@@ -7,15 +7,18 @@
 
 import SwiftUI
 
+var x = 2
+
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button{
+                x = 3
+            } label: {
+                Text("Report").padding(10)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
